@@ -1,0 +1,150 @@
+joxj aojz jnjm ejaj
+
+
+##############################
+# NODE MODULES & JAVASCRIPT
+##############################
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+##############################
+# PYTHON (Virtual Envs + Caches)
+##############################
+venv/
+env/
+ENV/
+.venv/
+**/venv/
+**/.venv/
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+**/.pytest_cache/
+pip-wheel-metadata/
+pip-log.txt
+poetry.lock
+.poetry/
+.poetry-cache/
+
+# SQLite / Local DBs
+*.sqlite3
+*.db
+
+##############################
+# BUILD / OUTPUT FOLDERS
+##############################
+dist/
+build/
+out/
+**/dist/
+**/build/
+**/out/
+.next/
+.nuxt/
+.vercel/
+.netlify/
+coverage/
+public/build/
+target/
+bin/
+obj/
+
+##############################
+# REACT NATIVE / MOBILE
+##############################
+android/
+ios/
+.expo/
+.expo-shared/
+web-build/
+**/android/
+**/ios/
+
+##############################
+# ENVIRONMENT FILES
+##############################
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+##############################
+# IDE / EDITOR CONFIG
+##############################
+.vscode/
+.idea/
+*.swo
+*.swp
+.vscode/*
+.idea/*
+*.iml
+
+##############################
+# OS GENERATED FILES
+##############################
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+
+##############################
+# LOG FILES
+##############################
+logs/
+**/logs/
+*.log
+**/*.log
+
+##############################
+# TYPESCRIPT / BABEL / ESLINT
+##############################
+*.tsbuildinfo
+.cache/
+.eslintcache
+**/.eslintcache
+
+##############################
+# DOCKER
+##############################
+docker-data/
+**/docker-data/
+docker-compose.override.yml
+
+##############################
+# JUPYTER / NOTEBOOK
+##############################
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+##############################
+# MISC
+##############################
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.tmp
+tmp/
+temp/
+**/tmp/
+**/temp/
+
+# Secrets
+CallingAgent/credentials.json
+.env
+
+# Large Data Files
+*.json
+scraped_pages/
